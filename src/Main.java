@@ -53,7 +53,5 @@ public class Main {
         // string type - it's not primitive type. It's a object.
         String myString = "Java Programming";
         System.out.println(myString);
-
-        // Next lesson: https://www.programiz.com/java-programming/operators
     }
 }
