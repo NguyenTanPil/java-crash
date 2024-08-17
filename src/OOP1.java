@@ -37,6 +37,29 @@ public class OOP1 {
 
         int value = OOP1.sum(1, 5);
         System.out.println("Sum: " + value);
+
+        // create strings
+        String first = "Java ";
+        String second = "Python ";
+        String third = "Javascript";
+        System.out.println(first + second + third);
+
+        System.out.println("Length: " + first.length());
+        String joinedString = first.concat(second);
+        System.out.println("Joined string: " + joinedString);
+        boolean comparedString = first.equals(second);
+        System.out.println("Compare two strings: " + comparedString);
+
+        boolean isContains = first.contains("Java");
+        System.out.println(isContains);
+
+        String str = "Java Programming";
+
+        // creating a char array
+        char[] result;
+
+        result = str.toCharArray();
+        System.out.println(result);
     }
-    // next lesson: https://www.programiz.com/java-programming/string
+
 }
