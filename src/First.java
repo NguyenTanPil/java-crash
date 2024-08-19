@@ -6,7 +6,7 @@
     The program prints "Hello and welcome!"
  */
 
-public class Main {
+public class First {
     public static void main(String[] args) {
         // First program
         System.out.println("Hello and welcome!");
